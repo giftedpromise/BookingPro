@@ -2,6 +2,10 @@
 
 ## A Multi-Step Booking Form for Cargo Shipments
 
+## Live link
+
+https://booking-pro.vercel.app/
+
 This project is a **multi-step booking form** built using **React.js** and **Tailwind CSS**. The form allows users to schedule cargo shipments, with features like input validation, dynamic pricing updates, and a fully responsive design. The **Context API** is used to manage and share state across the form's steps efficiently.
 
 ## Features
