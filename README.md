@@ -1,4 +1,4 @@
-# Cargo-booking
+# BookingPro
 
 ## A Multi-Step Booking Form for Cargo Shipments
 
@@ -27,3 +27,18 @@ Follow these steps to set up and run the project locally:
 ```bash
 git clone <repo-url>
 ```
+
+2.  Install dependencies: Make sure you have Node.js and npm installed, then run:
+    npm install
+
+3.  Start the development server:
+    npm run dev
+
+        State Management with Context API
+
+    Global State: The form uses the Context API to manage data like user inputs, current step, and calculated pricing. This avoids prop drilling and keeps the codebase clean.
+    Provider Setup: A context provider wraps the application, allowing all steps to access shared state.
+    Usage: Components consume the context using useContext for seamless data flow.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
